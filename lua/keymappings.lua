@@ -16,3 +16,7 @@ vim.api.nvim_set_keymap('n', '<C-p>', ':Files<CR>', {noremap = true})
 vim.api.nvim_set_keymap('n', '<leader>cg', ':CMakeGenerate<CR>', {}) 
 vim.api.nvim_set_keymap('n', '<leader>cb', ':CMakeBuild<CR>', {}) 
 
+-- Floating terminal
+vim.g.floaterm_keymap_new = '<leader>ft'
+vim.g.floaterm_keymap_toggle = '<leader>t'
+
