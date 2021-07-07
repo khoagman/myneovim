@@ -20,3 +20,9 @@ vim.api.nvim_set_keymap('n', '<leader>cb', ':CMakeBuild<CR>', {})
 vim.g.floaterm_keymap_new = '<leader>ft'
 vim.g.floaterm_keymap_toggle = '<leader>t'
 
+-- Telescope
+vim.api.nvim_set_keymap('n', '<leader>ff', ':Telescope find_files<CR>', {noremap = true, silent = true}) 
+vim.api.nvim_set_keymap('n', '<leader>fb', ':Telescope buffers<CR>', {noremap = true, silent = true}) 
+
+
+
