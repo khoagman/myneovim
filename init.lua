@@ -4,7 +4,6 @@ require "paq" {
     "savq/paq-nvim";                        -- Let Paq manage itself
     "rstacruz/vim-closer";	                -- Brackets closer	
     "gruvbox-community/gruvbox";            -- Color scheme
-    "itchyny/lightline.vim";
    
     "junegunn/fzf";                         -- Finder
     "junegunn/fzf.vim";
@@ -26,6 +25,8 @@ require "paq" {
         run = ":TSUpdate"
     };
     "romgrk/barbar.nvim";                   -- Bar 
+    "shaunsingh/nord.nvim";                 -- Colorscheme
+    "hoob3rt/lualine.nvim";                 -- Status line
 }
 
 require('colorscheme')
