@@ -19,6 +19,13 @@ require "paq" {
     "nvim-lua/plenary.nvim";
     "voldikss/vim-floaterm";                -- Floating terminal
 
+    "kyazdani42/nvim-web-devicons";         -- File explorer
+    "kyazdani42/nvim-tree.lua";
+
+    {"nvim-treesitter/nvim-treesitter",     -- Parser 
+        run = ":TSUpdate"
+    };
+    "romgrk/barbar.nvim";                   -- Bar 
 }
 
 require('colorscheme')
@@ -28,4 +35,8 @@ require('settings')
 require('nvim-compe')
 require('lsp.cpp-lsp')
 require('lsp.python-lsp')
+require('treesitter')
+
+
+
 
