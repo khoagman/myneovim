@@ -10,8 +10,7 @@ require "paq" {
     "neovim/nvim-lspconfig";                -- LSP
     "hrsh7th/nvim-compe";                   -- Auto complete
     "hrsh7th/vim-vsnip";                    -- Snippet
-    "cdelledonne/vim-cmake";                -- Cmake
-
+                                            
                                             -- Telescope                 
     "nvim-telescope/telescope.nvim";
     "nvim-lua/popup.nvim";
@@ -37,6 +36,7 @@ require('nvim-compe')
 require('lsp.cpp-lsp')
 require('lsp.python-lsp')
 require('treesitter')
+require('nvimtreeconfig')
 
 
 
