@@ -8,9 +8,8 @@ require "paq" {
     "junegunn/fzf";                         -- Finder
     "junegunn/fzf.vim";
     "neovim/nvim-lspconfig";                -- LSP
-    "hrsh7th/nvim-compe";                   -- Auto complete
     "hrsh7th/vim-vsnip";                    -- Snippet
-                                            
+    "hrsh7th/cmp-vsnip";                                           
                                             -- Telescope                 
     "nvim-telescope/telescope.nvim";
     "nvim-lua/popup.nvim";
@@ -26,18 +25,21 @@ require "paq" {
     "romgrk/barbar.nvim";                   -- Bar 
     "shaunsingh/nord.nvim";                 -- Colorscheme
     "hoob3rt/lualine.nvim";                 -- Status line
+
+    "hrsh7th/cmp-nvim-lsp";                 -- Auto completion
+    "hrsh7th/cmp-buffer";
+    "hrsh7th/cmp-path";
+    "hrsh7th/cmp-cmdline";
+    "hrsh7th/nvim-cmp";
+    "onsails/lspkind-nvim";           
 }
 
 require('colorscheme')
 require('statusbar')
 require('keymappings')
 require('settings')
-require('nvim-compe')
 require('lsp.cpp-lsp')
 require('lsp.python-lsp')
 require('treesitter')
 require('nvimtreeconfig')
-
-
-
-
+require('cmp-config')
