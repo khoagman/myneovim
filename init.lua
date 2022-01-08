@@ -23,7 +23,6 @@ require "paq" {
         run = ":TSUpdate"
     };
     "romgrk/barbar.nvim";                   -- Bar 
-    "shaunsingh/nord.nvim";                 -- Colorscheme
     "hoob3rt/lualine.nvim";                 -- Status line
 
     "hrsh7th/cmp-nvim-lsp";                 -- Auto completion
@@ -31,7 +30,6 @@ require "paq" {
     "hrsh7th/cmp-path";
     "hrsh7th/cmp-cmdline";
     "hrsh7th/nvim-cmp";
-    "onsails/lspkind-nvim";           
 }
 
 require('colorscheme')
